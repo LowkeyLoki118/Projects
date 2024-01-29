@@ -152,7 +152,7 @@ Select *, (RollingPeopleVaccinated/Population)*100
 from #PercentPopulationVaccinated
 
 
---View for later visualizations
+--View for Tableau
 
 Create View PercentPopulationVaccinated as
 Select dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations
